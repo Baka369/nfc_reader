@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NFC Tag Scanner</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 20px;
+    }
+    .status {
+      font-size: 1.5em;
+      margin-top: 20px;
+    }
+    button {
+      font-size: 1em;
+      padding: 10px 20px;
+      margin-top: 20px;
+    }
+    .error {
+      color: red;
+    }
+    .success {
+      color: green;
+    }
+  </style>
+</head>
+<body>
+  <h1>NFC Tag Scanner</h1>
+  <p>Click the button below to scan an NFC tag.</p>
+  <button id="scanButton">Scan NFC Tag</button>
+  <div id="output" class="status"></div>
+
+  <script src="nfc.js"></script>
+</body>
+</html>
